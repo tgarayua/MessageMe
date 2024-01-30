@@ -20,6 +20,7 @@
 		1327B5A32B68C836000E3BA5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327B5A22B68C836000E3BA5 /* ProfileView.swift */; };
 		1327B5A52B68C9B7000E3BA5 /* SettingsOptionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327B5A42B68C9B7000E3BA5 /* SettingsOptionsViewModel.swift */; };
 		1327B5A72B6963B7000E3BA5 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327B5A62B6963B7000E3BA5 /* ProfileViewModel.swift */; };
+		1327B5A92B696643000E3BA5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327B5A82B696643000E3BA5 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		1327B5A22B68C836000E3BA5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = MessageMe/Core/NewMessage/ProfileView.swift; sourceTree = SOURCE_ROOT; };
 		1327B5A42B68C9B7000E3BA5 /* SettingsOptionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOptionsViewModel.swift; sourceTree = "<group>"; };
 		1327B5A62B6963B7000E3BA5 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		1327B5A82B696643000E3BA5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +73,9 @@
 			children = (
 				1327B5832B688636000E3BA5 /* App */,
 				1327B5842B688637000E3BA5 /* Core */,
-				1327B5882B689594000E3BA5 /* Service */,
-				1327B5872B689584000E3BA5 /* Model */,
 				1327B5862B68956E000E3BA5 /* Extensions */,
+				1327B5872B689584000E3BA5 /* Model */,
+				1327B5882B689594000E3BA5 /* Service */,
 				1327B57B2B688623000E3BA5 /* Preview Content */,
 			);
 			path = MessageMe;
@@ -119,6 +121,7 @@
 		1327B5872B689584000E3BA5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1327B5A82B696643000E3BA5 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				1327B5932B68BB16000E3BA5 /* InboxView.swift in Sources */,
 				1327B5962B68BC6F000E3BA5 /* ActiveNowView.swift in Sources */,
 				1327B5A72B6963B7000E3BA5 /* ProfileViewModel.swift in Sources */,
+				1327B5A92B696643000E3BA5 /* User.swift in Sources */,
 				1327B5762B688622000E3BA5 /* MessageMeApp.swift in Sources */,
 				1327B5A52B68C9B7000E3BA5 /* SettingsOptionsViewModel.swift in Sources */,
 				1327B5912B68B901000E3BA5 /* RegistrationView.swift in Sources */,
