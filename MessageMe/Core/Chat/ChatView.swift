@@ -28,6 +28,9 @@ struct ChatView: View {
                 
                 // messages
                 
+                ForEach(0 ... 25, id:\.self) { message in
+                    ChatMessageCell(isFromCurrentUser: Bool.random())
+                }
                 
             }
             // message input view
