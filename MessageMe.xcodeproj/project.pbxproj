@@ -34,6 +34,7 @@
 		1327B5C52B697E70000E3BA5 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327B5C42B697E70000E3BA5 /* RegistrationViewModel.swift */; };
 		1327B5C72B697E96000E3BA5 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327B5C62B697E96000E3BA5 /* AuthService.swift */; };
 		1327B5CB2B69AF3F000E3BA5 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327B5CA2B69AF3F000E3BA5 /* ContentViewModel.swift */; };
+		1327B5CD2B69BD2B000E3BA5 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327B5CC2B69BD2B000E3BA5 /* UserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		1327B5C42B697E70000E3BA5 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		1327B5C62B697E96000E3BA5 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		1327B5CA2B69AF3F000E3BA5 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		1327B5CC2B69BD2B000E3BA5 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 		1327B5882B689594000E3BA5 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				1327B5CC2B69BD2B000E3BA5 /* UserService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				1327B5AC2B696C68000E3BA5 /* CircularProfileImageView.swift in Sources */,
 				1327B5932B68BB16000E3BA5 /* InboxView.swift in Sources */,
 				1327B5C22B697E3A000E3BA5 /* LoginViewModel.swift in Sources */,
+				1327B5CD2B69BD2B000E3BA5 /* UserService.swift in Sources */,
 				1327B5962B68BC6F000E3BA5 /* ActiveNowView.swift in Sources */,
 				1327B5A72B6963B7000E3BA5 /* ProfileViewModel.swift in Sources */,
 				1327B5A92B696643000E3BA5 /* User.swift in Sources */,
