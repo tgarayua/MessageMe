@@ -36,6 +36,7 @@
 		1327B5CB2B69AF3F000E3BA5 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327B5CA2B69AF3F000E3BA5 /* ContentViewModel.swift */; };
 		1327B5CD2B69BD2B000E3BA5 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327B5CC2B69BD2B000E3BA5 /* UserService.swift */; };
 		13B8E3EE2B6F177800A95483 /* InboxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8E3ED2B6F177800A95483 /* InboxViewModel.swift */; };
+		13B8E3F22B6F1D9700A95483 /* NewMessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8E3F12B6F1D9700A95483 /* NewMessageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		1327B5CA2B69AF3F000E3BA5 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		1327B5CC2B69BD2B000E3BA5 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		13B8E3ED2B6F177800A95483 /* InboxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewModel.swift; sourceTree = "<group>"; };
+		13B8E3F12B6F1D9700A95483 /* NewMessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,7 +217,8 @@
 		1327B59C2B68C2CF000E3BA5 /* NewMessage */ = {
 			isa = PBXGroup;
 			children = (
-				1327B59D2B68C2E7000E3BA5 /* NewMessageView.swift */,
+				13B8E3F02B6F1D7F00A95483 /* View */,
+				13B8E3EF2B6F1D7F00A95483 /* ViewModel */,
 			);
 			path = NewMessage;
 			sourceTree = "<group>";
@@ -315,6 +318,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		13B8E3EF2B6F1D7F00A95483 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				13B8E3F12B6F1D9700A95483 /* NewMessageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		13B8E3F02B6F1D7F00A95483 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1327B59D2B68C2E7000E3BA5 /* NewMessageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -410,6 +429,7 @@
 				1327B5AC2B696C68000E3BA5 /* CircularProfileImageView.swift in Sources */,
 				1327B5932B68BB16000E3BA5 /* InboxView.swift in Sources */,
 				1327B5C22B697E3A000E3BA5 /* LoginViewModel.swift in Sources */,
+				13B8E3F22B6F1D9700A95483 /* NewMessageViewModel.swift in Sources */,
 				1327B5CD2B69BD2B000E3BA5 /* UserService.swift in Sources */,
 				1327B5962B68BC6F000E3BA5 /* ActiveNowView.swift in Sources */,
 				1327B5A72B6963B7000E3BA5 /* ProfileViewModel.swift in Sources */,
