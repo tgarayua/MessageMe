@@ -18,7 +18,7 @@ class AuthService {
     init() {
         self.userSession = Auth.auth().currentUser
         loadCurrentUserData()
-        print("DEBUG: User session id is \(userSession?.uid)")
+//        print("DEBUG: User session id is \(userSession?.uid)")
     }
     
     @MainActor
@@ -28,7 +28,7 @@ class AuthService {
             self.userSession = result.user
             loadCurrentUserData()
         } catch {
-            print("DEBUG: Failed to sign in user with error: \(error.localizedDescription)")
+//            print("DEBUG: Failed to sign in user with error: \(error.localizedDescription)")
         }
     }
     
@@ -39,9 +39,9 @@ class AuthService {
             self.userSession = result.user
             try await self.uploadUserData(email: email, fullname: fullname, id: result.user.uid)
             loadCurrentUserData()
-            print("DEBUG: Create user \(result.user.uid)")
+//            print("DEBUG: Create user \(result.user.uid)")
         } catch {
-            print("DEBUG: Failed to create user with error: \(error.localizedDescription)")
+//            print("DEBUG: Failed to create user with error: \(error.localizedDescription)")
         }
     }
     
@@ -51,7 +51,7 @@ class AuthService {
             self.userSession = nil
             UserService.shared.currentUser = nil
         } catch {
-            print("DEBUG: Failed to sign out with error \(error.localizedDescription)")
+//            print("DEBUG: Failed to sign out with error \(error.localizedDescription)")
         }
     }
     

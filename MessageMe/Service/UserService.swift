@@ -21,7 +21,7 @@ class UserService {
         let snapshot = try await Firestore.firestore().collection("users").document(uid).getDocument()
         let user = try snapshot.data(as: User.self)
         self.currentUser = user
-        print("DEBUG: Current user in service is \(currentUser)")
+//        print("DEBUG: Current user in service is \(currentUser)")
     }
     
     static func fetchAllUsers() async throws -> [User] {
