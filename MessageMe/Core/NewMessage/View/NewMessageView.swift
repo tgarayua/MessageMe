@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct NewMessageView: View {
+    @Binding var selectedUser: User?
     @State private var searchText = ""
     @StateObject private var viewModel = NewMessageViewModel()
     @Environment(\.dismiss) var dismiss
@@ -42,6 +43,10 @@ struct NewMessageView: View {
                         Divider()
                             .padding(.leading, 40)
                     }
+                    .onTapGesture {
+                        selectedUser = user
+                        dismiss()
+                    }
                 }
             }
             .navigationTitle("New Message")
@@ -60,6 +65,6 @@ struct NewMessageView: View {
 
 struct NewMessageView_Previews: PreviewProvider {
     static var previews: some View {
-        NewMessageView()
+        NewMessageView(selectedUser: .constant(User.MOCK_USER))
     }
 }
